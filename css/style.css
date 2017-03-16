@@ -1,0 +1,74 @@
+body {
+	background: #EECDA3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EECDA3 , #EF629F); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #EECDA3 , #EF629F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+	margin: 0;
+	padding:0;
+	font-family: "Ariel";
+}
+ul{
+text-align:center;
+}
+ul li{
+display:inline-block;
+padding:30px;
+
+}
+li a{
+	color:black;
+  text-decoration:none;
+
+}
+
+
+img{
+	display:inline-block;
+	position:"center";
+	top:30px;
+	left:60px;
+	margin-left:500px;
+    margin-top:10px;
+    word-wrap: break-word;
+     border: .1px solid white;
+    border-radius: 100px;
+    outline:2px solid white;
+}
+
+.ABOUTME{
+	position:relative;
+	top:-30px;
+	right:-475px;
+	width:400px;
+	outline:2px solid white;
+	color: rgba(230, 230, 255,0.5);
+
+  .container {
+    position:relative;
+    max-width: 600px
+    height:auto;
+    border: 2px solid #ffffff;
+    margin:100px auto;
+    padding:30px;
+    box sizing: border-box;  
+
+
+* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: solid blue; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: blue; /* White text color */
+}
+
+.creativity {width: 90%; background-color:lightblue;} /* Green */
+.knowledge {width: 80%; background-color:#2196F3;} /* Blue */
+.js {width: 65%; background-color:#f44336;} /* Red */
+.php {width: 60%; background-color:#808080;} /* Dark Grey */

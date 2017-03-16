@@ -1,0 +1,45 @@
+body {
+	background: #085078; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+    margin: 0;
+	padding:0;
+	font-family: "Ariel";
+}
+ul{
+text-align:center;
+}
+ul li{
+display:inline-block;
+padding:30px;
+
+}
+li a{
+	color:black;
+  text-decoration:none;
+
+}
+
+
+img{
+	display:inline-block;
+	position:"center";
+	top:30px;
+	left:60px;
+	margin-left:500px;
+    margin-top:10px;
+    word-wrap: break-word;
+     border: .1px solid white;
+    border-radius: 100px;
+    outline:2px solid white;
+}
+
+.ABOUTME{
+	position:relative;
+	top:-30px;
+	right:-475px;
+	width:400px;
+	outline:2px solid white;
+	color: rgba(230, 230, 255,0.5);
+

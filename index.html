@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lange="en">
+<head>
+<meta charset="utf-8"/>
+<title>Joanna Mitova Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" >
+
+<HEADER>
+ <ul>
+
+        <li class=""><a href="#about">ABOUT</a></li>
+
+        <li class=""><a href="#services">SERVICES</a></li>
+
+        <li class=""><a href="#portfolio">PORTFOLIO</a></li>
+
+        <li class=""><a href="#contact">CONTACT</a></li>
+
+      </ul>
+</HEADER>
+</head>
+
+<body>
+<div id ="pic">
+ <img src="img/joa.jpg" alt="me" style="width:350px;height:350px;"> </div>
+
+<h1 class="ABOUTME"><b>Welcome to my website!</b></h1>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>ABOUT ME</h2>
+
+<button class="accordion">Who am I ?</button>
+<div class="panel">
+  <p> My name is Joanna and I am from Bulgaria. I have always enjoyed creating and expanding my skills in any field that grabs my interest. I fall inlove with different things everyday. I share deep passion for travelling and reading. Also, I am a vert outgoing and possitive individual who has the ability to deal with stressful situations. </p>
+</div>
+
+<button class="accordion">Skills</button>
+<div class="panel">
+  <p>I have alot of different skill in many differnt fields. Since I am part of Npower I am able to gain more skill that will help me to grow in the dynamic IT field. I have always been a very creative individual. I like to put my creative mind in every project which i come across. My short term goal is to gain knowledge in software development and be able to create everything that my mind comes up with</p>
+</div>
+
+<button class="accordion">Goals</button>
+<div class="panel">
+  <p> I have alot of goals which are both long term and short term. In my near future I hope to spend my skill in HTML and CSS , as well as other Software Development languages. As well, successfully completing the Npower program</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
+<html>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="middle">
+    <h1>PORTFOLIO COMING SOON</h1>
+    <hr>
+    <p>7 WEEKS LEFT</p>
+  </div>
+  <div class="bottomleft">
+    <p>*UPON COMPLETING NPOWER I WILL BE ABLE TO CREATE PORTFOLIO WHICH WILL INCLUDE ALOT OF THE WORK I HAVE DONE</p>
+  </div>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  text-align:"centre";
+  background: #007bb5;
+  color: white;
+}
+
+.fa-skype {
+  text-align:"centre";
+  background: #00aff0;
+  color: white;
+}
+</style>
+</head>
+<body>
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-skype"></a>      
+</body>
+</html> 
+
+
